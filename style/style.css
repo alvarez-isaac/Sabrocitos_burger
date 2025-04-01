@@ -1,0 +1,174 @@
+/*fuentes para cuerpo*/
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Jockey+One&family=Mukta:wght@200;300;400;500;600;700;800&family=Noto+Sans+Gunjala+Gondi:wght@400..700&family=Noto+Sans+JP:wght@100..900&display=swap");
+
+/*fuentes titulos*/
+@import url("https://fonts.googleapis.com/css2?family=Jockey+One&display=swap");
+
+/*fuentes nav*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+nav {
+  background-color: #ffc836;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 19px;
+  font-family: "Poppins", sans-serif;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.logo img {
+  width: 200px;
+}
+
+.iconos img {
+  width: 25px;
+  height: 25px;
+}
+
+.iconos {
+  float: left;
+  display: flex;
+  align-items: center;
+}
+
+.boton {
+  background-color: #f32a2a;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  width: 200px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.header {
+  background-color: #ffc836;
+  height: 350px;
+}
+
+.imagensilla img {
+  width: 569px;
+  height: 320px;
+  margin-right: 30px;
+  border-radius: 15px;
+}
+
+.imagensilla_2 img {
+  width: 400px;
+  height: 500px;
+  margin: 30px;
+  margin-bottom: 50px;
+}
+
+.imagensilla_2:hover {
+  transform: scale(1.05);
+}
+
+.imagensilla:hover {
+  transform: scale(1.05);
+}
+
+.orden {
+  display: flex;
+  justify-content: space-around;
+}
+.titulos h1 {
+  text-align: center;
+  font-size: 34px;
+  font-family: "Jockey One", sans-serif;
+}
+
+.carne-section {
+  background-color: #eeeeee;
+  padding: 20px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.carne-section textarea {
+  width: 90%;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #f4b400;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #f4b400;
+  padding: 1px;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+footer h1 {
+  margin-left: 20px;
+}
+
+footer p {
+  margin-left: 650px;
+  font-size: 24px;
+}
+
+.contenedor {
+  font-family: "Noto Sans", sans-serif;
+  text-align: center;
+  font-size: 24px;
+}
+
+.about img {
+  float: right;
+  width: 400px;
+  height: 200px;
+  border-radius: 15px;
+}
+
+.container {
+  background-color: #fffbea;
+  padding: 100px;
+  border-radius: 10px;
+  border: 2px solid #eac117;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1760px;
+}
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+input, textarea {
+  width: 250px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.redes {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.redes a {
+  text-decoration: none;
+  color: #000;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
